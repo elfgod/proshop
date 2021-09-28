@@ -1,5 +1,6 @@
 const products = [
     {        
+        _id: '1',
         name: 'Stack 01',
         image: '/images/stack01.jpg',
         description:
@@ -11,7 +12,8 @@ const products = [
         rating: 3.5,
         numReviews: 4,
     },
-    {        
+    {   
+        _id: '2',     
         name: 'Stack 02',
         image: '/images/stack02.jpg',
         description:
@@ -23,7 +25,8 @@ const products = [
         rating: 4.0,
         numReviews: 5,
     },
-    {        
+    {   
+        _id: '3',   
         name: 'Stack 03',
         image: '/images/stack03.jpg',
         description:
@@ -35,7 +38,8 @@ const products = [
         rating: 4.5,
         numReviews: 6,
     },
-    {        
+    {   
+        _id: '4',    
         name: 'Stack 04',
         image: '/images/stack04.jpg',
         description:
@@ -47,7 +51,8 @@ const products = [
         rating: 5.0,
         numReviews: 7,
     },
-    {        
+    {   
+        _id: '5',    
         name: 'Stack 05',
         image: '/images/stack05.jpg',
         description:
@@ -59,7 +64,8 @@ const products = [
         rating: 3.5,
         numReviews: 8,
     },
-    {        
+    {   
+        _id: '6',     
         name: 'Stack 06',
         image: '/images/stack06.jpg',
         description:
@@ -71,7 +77,8 @@ const products = [
         rating: 3.0,
         numReviews: 9,
     },
-    {        
+    {    
+        _id: '7',    
         name: 'Stack 07',
         image: '/images/stack07.jpg',
         description:
@@ -83,7 +90,8 @@ const products = [
         rating: 1.0,
         numReviews: 10,
     },
-    {        
+    {   
+        _id: '8',    
         name: 'Stack 08',
         image: '/images/stack08.jpg',
         description:

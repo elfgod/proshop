@@ -4,7 +4,7 @@
 mkdir proshop
 cd proshop
 npx create-react-app frontEnd
-
+npm i react-bootstrap
 ```
 
 ## DEV Dependencies

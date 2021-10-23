@@ -3,8 +3,13 @@
 ```bash
 mkdir proshop
 cd proshop
+mkdir frontend
+cd frontend
+
 npx create-react-app frontEnd
 npm i react-bootstrap
+npm i react-router-dom
+npm i react-router-bootstrap
 ```
 
 ## DEV Dependencies
@@ -24,6 +29,11 @@ npm i react-bootstrap
 ## BackEnd Configuration
 
 ```bash
+npm init -y
+mkdir backend
+
+npm i express
+
 
 
 ```

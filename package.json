@@ -1,0 +1,24 @@
+{
+  "name": "proshop",
+  "version": "1.0.0",
+  "description": "MERN shopping cart app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon backend/server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elfgod/proshop.git"
+  },
+  "keywords": [],
+  "author": "ElfGod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/elfgod/proshop/issues"
+  },
+  "homepage": "https://github.com/elfgod/proshop#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

@@ -31,6 +31,7 @@ cd backend
 npm i express
 npm i axios
 npm i dotenv
+npm i mongoose
 
 
 ```

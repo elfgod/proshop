@@ -1,25 +1,23 @@
-## FrontEnd Configuration
+## Start here
 
 ```bash
 mkdir proshop
 cd proshop
-mkdir frontend
-cd frontend
+npm init -y
+mkdir frontend backend
+```
 
+## FrontEnd Configuration
+
+```bash
+cd frontend
 npx create-react-app frontEnd
 npm i react-bootstrap
 npm i react-router-dom
 npm i react-router-bootstrap
 ```
 
-## DEV Dependencies
-
-```bash
-
-
-```
-
-## Dependencies
+## FrontEnd DEV Dependencies
 
 ```bash
 
@@ -29,9 +27,7 @@ npm i react-router-bootstrap
 ## BackEnd Configuration
 
 ```bash
-npm init -y
-mkdir backend
-
+cd backend
 npm i express
 npm i axios
 
@@ -39,10 +35,10 @@ npm i axios
 
 ```
 
-## DEV Dependencies
+## BackEnd DEV Dependencies
 
 ```bash
-
+npm i -D concurrently
 
 ```
 

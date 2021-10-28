@@ -32,7 +32,7 @@ npm i express
 npm i axios
 npm i dotenv
 npm i mongoose
-
+npm i colors
 
 ```
 

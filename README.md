@@ -33,7 +33,7 @@ npm i axios
 npm i dotenv
 npm i mongoose
 npm i colors
-
+npm i express-async-handler
 ```
 
 ## BackEnd DEV Dependencies

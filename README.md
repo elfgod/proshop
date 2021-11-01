@@ -15,6 +15,8 @@ npx create-react-app frontEnd
 npm i react-bootstrap
 npm i react-router-dom
 npm i react-router-bootstrap
+npm i redux react-redux redux-thunk
+npm i redux-devtools-extension
 ```
 
 ## FrontEnd DEV Dependencies

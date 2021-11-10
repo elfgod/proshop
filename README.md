@@ -36,6 +36,7 @@ npm i dotenv
 npm i mongoose
 npm i colors
 npm i express-async-handler
+npm i jsonwebtoken
 ```
 
 ## BackEnd DEV Dependencies

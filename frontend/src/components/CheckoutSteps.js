@@ -1,6 +1,5 @@
 import React from 'react'
 import { Nav } from 'react-bootstrap'
-import NavbarCollapse from 'react-bootstrap/esm/NavbarCollapse'
 import { LinkContainer } from 'react-router-bootstrap'
 
 
@@ -29,11 +28,11 @@ const CheckoutSteps = ({ step1, step2, step3, step4 }) => {
 
       <Nav.Item>
         {step3 ? (
-          <LinkContainer to='/payments'>
-            <Nav.Link>Payments</Nav.Link>
+          <LinkContainer to='/payment'>
+            <Nav.Link>Payment</Nav.Link>
           </LinkContainer>
         ) : (
-          <Nav.Link disabled>Payments</Nav.Link>
+          <Nav.Link disabled>Payment</Nav.Link>
         )}
       </Nav.Item>
 

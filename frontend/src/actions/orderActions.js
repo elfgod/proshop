@@ -53,24 +53,24 @@ export const getOrderDetails = (id) => async (dispatch, getState) => {
     } = getState()
 
     const config = {
-      headers: {        
+      headers: {
         Authorization: `Bearer ${userInfo.token}`,
       },
     }
 
-    const { data } = await axios.get(`/api/orders${id}`, config)
+    const { data } = await axios.get(`/api/orders/${id}`, config)
 
     dispatch({
-      type: ORDER_DETAILS_SUCCESS, 
+      type: ORDER_DETAILS_SUCCESS,
       payload: data,
     })
   } catch (error) {
     dispatch({
       type: ORDER_DETAILS_FAIL,
       payload:
-      error.response && error.response.data.message
-        ? error.response.data.message
-        : error.message,
+        error.response && error.response.data.message
+          ? error.response.data.message
+          : error.message,
     })
   }
 }
